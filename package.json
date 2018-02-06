@@ -30,12 +30,12 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "buefy": "^0.6.3"
+    "buefy": "latest"
   },
   "devDependencies": {
     "codecov": "latest",
     "eslint": "latest",
-    "eslint-config-buefy": "^0.0.1",
+    "eslint-config-buefy": "latest",
     "eslint-plugin-jest": "latest",
     "jest": "latest",
     "jsdom": "latest",
