@@ -1,0 +1,17 @@
+{
+    "non-interactive": true,
+    "increment": "minor",
+    "github": {
+      "release": true,
+      "releaseName": "🚀 Release %s",
+      "tokenRef": "GITHUB_TOKEN"
+    },
+    "npm": {
+      "publish": true
+    },
+    "src": {
+      "commitMessage": "🔖 %s",
+      "tagName": "v%s"
+    },
+    "changelogCommand": "git log --pretty=format:'* %s (%h)' [REV_RANGE]"
+  }

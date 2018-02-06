@@ -1,0 +1,45 @@
+{
+  "name": "nuxt-buefy",
+  "version": "0.0.1",
+  "description": "Nuxt buefy",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Antério Vieira <anteriovieira@gmail.com>"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/buefy/nuxt-buefy",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "nuxt test/fixture",
+    "lint": "eslint lib test",
+    "test": "npm run lint && jest",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true
+  },
+  "dependencies": {
+    "buefy": "^0.6.3"
+  },
+  "devDependencies": {
+    "codecov": "latest",
+    "eslint": "latest",
+    "eslint-config-buefy": "^0.0.1",
+    "eslint-plugin-jest": "latest",
+    "jest": "latest",
+    "jsdom": "latest",
+    "nuxt": "latest",
+    "standard-version": "latest"
+  }
+}
