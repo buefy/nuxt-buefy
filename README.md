@@ -2,6 +2,8 @@
 [![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-buefy/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-buefy)
 [![npm](https://img.shields.io/npm/dt/nuxt-buefy.svg?style=flat-square)](https://npmjs.com/package/nuxt-buefy)
 [![CircleCI](https://img.shields.io/circleci/project/github/buefy/nuxt-buefy.svg?style=flat-square)](https://circleci.com/gh/buefy/nuxt-buefy)
+[![Codecov](https://img.shields.io/codecov/c/github/buefy/nuxt-buefy.svg?style=flat-square)](https://codecov.io/gh/buefy/nuxt-buefy)
+[![Dependencies](https://david-dm.org/buefy/nuxt-buefy/status.svg?style=flat-square)](https://david-dm.org/buefy/nuxt-buefy)
 [![js-standard-style](https://img.shields.io/badge/code_style-buefy-7957d5.svg?style=flat-square)](http://buefy.github.io)
 
 > Nuxt buefy 
