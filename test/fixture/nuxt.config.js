@@ -7,8 +7,5 @@ module.exports = {
     render: {
         resourceHints: false
     },
-    modules: ['@@'],
-    buefy: {
-        css: false
-    }
+    modules: ['@@']
 }
