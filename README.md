@@ -6,7 +6,7 @@
 [![Dependencies](https://david-dm.org/buefy/nuxt-buefy/status.svg?style=flat-square)](https://david-dm.org/buefy/nuxt-buefy)
 [![js-standard-style](https://img.shields.io/badge/code_style-buefy-7957d5.svg?style=flat-square)](http://buefy.github.io)
 
-> Nuxt buefy 
+> It's really very simple to start with nuxt. But we can make it even simpler by adding <a href="https://github.com/buefy/nuxt-buefy">nuxt-buefy</a>.
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
