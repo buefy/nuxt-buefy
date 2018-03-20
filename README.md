@@ -45,7 +45,7 @@ or
 
 ## Options
 
-Name | Description | Type | Values | default |
+Name | Description | Type | Values | Default |
 -----|-------------|------|--------|---------|
 css     | Add buefy css | Boolean | `true` or `false` | `true` |
 materialDesignIcons | Add material desigin icons | Boolean | `true` or `false` | `true` |
