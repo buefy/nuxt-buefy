@@ -43,6 +43,16 @@ or
 }
 ```
 
+## Options
+
+Name | Description | Type | Values | default |
+-----|-------------|------|--------|---------|
+css     | Add buefy css | Boolean | `true` or `false` | `true` |
+materialDesignIcons | Add material desigin icons | Boolean | `true` or `false` | `true` |
+
+> You can use buefy [construct options](https://buefy.github.io/#/documentation/constructor-options).
+
+
 ## Development
 
 - Clone this repository
