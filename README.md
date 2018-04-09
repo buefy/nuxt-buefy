@@ -13,7 +13,7 @@
 ## Install
 
 ```bash
-npm i nux-buefy
+npm i nuxt-buefy
 # or
 yarn add nuxt-buefy
 ```
