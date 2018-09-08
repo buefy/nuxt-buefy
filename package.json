@@ -30,7 +30,7 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "buefy": "0.6.6"
+    "buefy": "0.6.7"
   },
   "devDependencies": {
     "codecov": "latest",
