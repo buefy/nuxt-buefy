@@ -1,6 +1,6 @@
 {
   "name": "nuxt-buefy",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Nuxt buefy",
   "license": "MIT",
   "contributors": [
@@ -17,7 +17,7 @@
     "dev": "nuxt test/fixture",
     "lint": "eslint lib test",
     "test": "npm run lint && jest",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "release": "standard-version && git push --follow-tags && yarn publish"
   },
   "eslintIgnore": [
     "lib/templates/*.*"
