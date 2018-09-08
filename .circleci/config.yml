@@ -3,7 +3,8 @@ jobs:
   build:
     working_directory: /usr/src/app
     docker:
-      - image: banian/node
+      # specify the version you desire here
+      - image: circleci/node:8.10-browsers
     steps:
       # Checkout repository
       - checkout
