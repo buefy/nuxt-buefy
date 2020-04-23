@@ -43,6 +43,11 @@ or
 }
 ```
 
+## TypeScript
+
+Add `buefy/types` to `compilerOptions.types` of `tsconfig.json`.
+
+
 ## Options
 
 Name | Description | Type | Values | Default |
