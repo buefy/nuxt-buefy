@@ -62,7 +62,7 @@ materialDesignIcons | Add material desigin icons | Boolean | `true` or `false` |
 
 - Clone this repository
 - Install dependnecies using `yarn install` or `npm install`
-- Start development server using `yarn run dev`
+- Start development server using `yarn run dev` or `npm run dev`
 
 ## License
 
