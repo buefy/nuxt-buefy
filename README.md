@@ -12,6 +12,10 @@
 
 ## Install
 
+If you create new project from scratch, just choose buefy right from create-nuxt-app!
+
+For already existing project just:
+
 ```bash
 npm i nuxt-buefy
 # or
@@ -52,10 +56,10 @@ Add `buefy/types` to `compilerOptions.types` of `tsconfig.json`.
 
 Name | Description | Type | Values | Default |
 -----|-------------|------|--------|---------|
-css     | Add buefy css | Boolean | `true` or `false` | `true` |
-materialDesignIcons | Add material desigin icons | Boolean | `true` or `false` | `true` |
+`css`     | Add buefy css | Boolean | `true` or `false` | `true` |
+`materialDesignIcons` | Add material desigin icons | Boolean | `true` or `false` | `true` |
 
-> You can use buefy [construct options](https://buefy.github.io/documentation/constructor-options).
+> You can use buefy [construct options](https://buefy.org/documentation/constructor-options).
 
 
 ## Development
