@@ -57,7 +57,7 @@ Add `buefy/types` to `compilerOptions.types` of `tsconfig.json`.
 Name | Description | Type | Values | Default |
 -----|-------------|------|--------|---------|
 `css`     | Add buefy css | Boolean | `true` or `false` | `true` |
-`materialDesignIcons` | Add material desigin icons | Boolean | `true` or `false` | `true` |
+`materialDesignIcons` | Add material design icons | Boolean | `true` or `false` | `true` |
 
 > You can use buefy [construct options](https://buefy.org/documentation/constructor-options).
 
