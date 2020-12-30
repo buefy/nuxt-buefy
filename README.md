@@ -22,6 +22,20 @@ npm i nuxt-buefy
 yarn add nuxt-buefy
 ```
 
+### TypeScript support
+
+Add `buefy/types` to `tsconfig.json`:
+
+```js
+{
+  "compilerOptions": {
+    "types": [
+      "buefy/types"
+    ]
+  }
+}
+```
+
 ## Usage
 
 ```js
@@ -47,12 +61,7 @@ or
 }
 ```
 
-## TypeScript
-
-Add `buefy/types` to `compilerOptions.types` of `tsconfig.json`.
-
-
-## Options
+### Options
 
 Name | Description | Type | Values | Default |
 -----|-------------|------|--------|---------|
@@ -61,6 +70,37 @@ Name | Description | Type | Values | Default |
 
 > You can use buefy [construct options](https://buefy.org/documentation/constructor-options).
 
+### Customization
+
+If you're familiar with Sass and want to customize Buefy with your own theme, follow these steps:
+
+1. Disable buefy css in module options:
+
+```js
+{
+  modules: [
+    ['nuxt-buefy', { css: false }]
+ ]
+}
+```
+
+2. Create a `.scss` file:
+
+```css
+// Import bulma styles
+@import "~bulma";
+
+// Import buefy styles
+@import "~buefy/src/scss/buefy";
+```
+
+3. Define `css` property in `nuxt.config`:
+
+```js
+{
+  css: ['@/assets/scss/main.scss']
+}
+```
 
 ## Development
 
