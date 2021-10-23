@@ -67,6 +67,7 @@ Name | Description | Type | Values | Default |
 -----|-------------|------|--------|---------|
 `css`     | Add buefy css | Boolean | `true` or `false` | `true` |
 `materialDesignIcons` | Add material design icons | Boolean | `true` or `false` | `true` |
+`materialDesignIconsHRef` | Specify material design icons version | String | Any CDN URL to MDI | `https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css` |
 
 > You can use buefy [construct options](https://buefy.org/documentation/constructor-options).
 
