@@ -75,6 +75,14 @@ Name | Description | Type | Values | Default |
 
 If you're familiar with Sass and want to customize Buefy with your own theme, follow these steps:
 
+0. If not already installed, install `sass` and `sass-loader`
+
+```bash
+npm i sass sass-loader@10 --save-dev
+# or
+yarn add --dev sass sass-loader@10
+```
+
 1. Disable buefy css in module options:
 
 ```js
