@@ -1,6 +1,6 @@
 {
   "name": "nuxt-buefy",
-  "version": "0.4.22",
+  "version": "0.4.23",
   "description": "Nuxt buefy",
   "license": "MIT",
   "contributors": [
@@ -30,7 +30,7 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "buefy": "^0.9.20"
+    "buefy": "^0.9.21"
   },
   "devDependencies": {
     "codecov": "^3.1.0",
