@@ -38,7 +38,7 @@
     "eslint-config-buefy": "^0.0.2",
     "eslint-plugin-jest": "^21.22.0",
     "jest": "^23.5.0",
-    "jsdom": "^12.0.0",
+    "jsdom": "^16.5.0",
     "nuxt": "^2.15.8",
     "standard-version": "^4.4.0"
   },
