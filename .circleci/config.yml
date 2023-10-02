@@ -27,7 +27,7 @@ jobs:
       # Test
       - run:
           name: Tests
-          command: yarn test
+          command: NODE_OPTIONS=--openssl-legacy-provider yarn test
 
       # Coverage
       - run:
