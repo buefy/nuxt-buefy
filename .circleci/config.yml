@@ -4,7 +4,7 @@ jobs:
     working_directory: ~/repo
     docker:
       # specify the version you desire here
-      - image: circleci/node:8.10-browsers
+      - image: cimg/node:18.18-browsers
     steps:
       # Checkout repository
       - checkout
@@ -27,7 +27,7 @@ jobs:
       # Test
       - run:
           name: Tests
-          command: yarn test
+          command: NODE_OPTIONS=--openssl-legacy-provider yarn test
 
       # Coverage
       - run:
