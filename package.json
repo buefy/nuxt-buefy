@@ -30,7 +30,7 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "buefy": "^0.9.29"
+    "buefy": "npm:@ntohq/buefy-next@^0.1.3"
   },
   "devDependencies": {
     "buffer": "^6.0.3",
